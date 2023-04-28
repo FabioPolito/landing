@@ -1,0 +1,119 @@
+/* Write some CSS below */
+body {
+  font-family: Spectral;
+  color: #404042;
+  font-size: 18px;
+}
+
+h1 {
+font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+
+}
+
+h2, h3 {
+  font-family: Spectral;
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+}
+
+a {
+  color: #1A48E3;
+  font-family: Spectral;
+  font-weight: normal;
+  text-decoration: none;
+  transition: .3s;
+  text-align: center;
+  font-size: 15px;
+  background-color: black;
+color: white;
+padding: 10px 30px;
+border-radius: 7px;
+display: inline-block;
+text-decoration: none;
+}
+
+p {
+  font-family: Spectral;
+  text-align: center;
+  font-size: 25px;
+}
+
+a:hover {
+color: #CE2FAE;
+background-color: darkblue;
+color: white;
+padding: 10px 30px;
+border-radius: 7px;
+display: inline-block;
+text-decoration: none;
+transition: .1s;
+}
+
+.banner {
+	background-color: darkred;
+	color: white;
+	padding: 5px 5px;
+	border-radius: 0px;
+}
+
+
+.banner p{
+	margin-top: 0px;
+	font-family: Kaushan Script;
+}
+
+.pres {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/bouteilles.jpg");
+	background-size: cover;
+	padding: 200px;
+	margin-top: 0;
+}
+	
+.pres h2{
+	color: white;
+	margin-top: 1px;
+}
+
+.pres p{
+	color: white;
+	font-size: 20px;
+	margin-top: 5;
+}
+
+.titre-epicuvin{
+	display: flex;
+	justify-content: center
+}
+
+.bouteilles{
+	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+ 	grid-gap: 18px;
+ 	background-color: beige;
+ 	align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.bouteilles p{
+	font-size: 17px;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 18px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  flex-grow: 1;
+  align-content: center;
+}
+
+
+
